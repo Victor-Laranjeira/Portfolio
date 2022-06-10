@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, rgb(42, 63, 59), #24d9b9);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 24px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 62px;
+  margin-right: 120px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif;
+  color: rgb(155, 255, 237);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.cabecalho-home {
+  margin-right: 699px;
+  font-family: 'Sarala', sans-serif;
+  color: rgb(155, 255, 237);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid rgb(207, 207, 207);
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 60px;
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+  font-family: 'Righteous', cursive;
+  font-size: 64px;
+  font-weight: 400;
+  color: rgb(48, 167, 146);
+}
+
+p {
+  font-family: 'Sarala', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 650px;
+  text-align: justify;
+  color: rgb(0, 38, 31);
+}
+
+.conteudo-principal2-escrito {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+h3 {
+  font-family: 'Righteous', cursive;
+  font-size: 32px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: rgb(40, 61, 58);
+}
+
+.conteudo-principal2{
+  font-family: 'Sarala', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.conteudo-principal2-link:link {
+  color: rgb(0, 38, 31);
+}
+
+.conteudo-principal2-link:visited {
+color: rgb(0, 38, 31);
+}
+
+.rodape {
+  padding: 18px;
+  border-top: 0.4px solid rgb(207, 207, 207);
+}
+
+.rodape-nome {
+  text-align: center;
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(155, 255, 237);
+}
