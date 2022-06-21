@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, rgb(42, 63, 59), #24d9b9);
+}
+  
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 24px;
+}
+  
+.cabecalho-menu {
+    display: flex;
+    gap: 62px;
+    margin-right: 120px;
+}
+  
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(155, 255, 237);
+    font-weight: 400;
+    font-size: 18px;
+}
+  
+.cabecalho-home {
+    margin-right: 699px;
+    font-family: 'Sarala', sans-serif;
+    color: rgb(155, 255, 237);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+
+
+
+.rodape {
+    padding: 18px;
+    border-top: 0.4px solid rgb(207, 207, 207);
+  }
+  
+  .rodape-nome {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(155, 255, 237);
+  }

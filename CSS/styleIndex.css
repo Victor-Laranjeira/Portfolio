@@ -100,10 +100,6 @@ body {
   background-color: rgb(21, 110, 95);
 }
 
-.conteudo-principal-paragrafo-divisao {
-  
-}
-
 .conteudo-principal-paragrafo {
   margin-right: 40px;
   margin-left: 200px;
@@ -168,7 +164,7 @@ body {
   -moz-transition: 500ms ease;
   -o-transition: 500ms ease;
 }
-.conteudo-secundario-botao3 {
+/* .conteudo-secundario-botao3 {
   width: 610px;
   height: 130px;
   margin-left: 50px;
@@ -202,7 +198,7 @@ body {
   -webkit-transition: 500ms ease;
   -moz-transition: 500ms ease;
   -o-transition: 500ms ease;
-}
+} */
 
 .conteudo-secundario-botao1:hover {
   background: rgba(158, 158, 158, 0.3);
@@ -216,7 +212,7 @@ body {
   height: 140px;
 }
 
-.conteudo-secundario-botao3:hover {
+/* .conteudo-secundario-botao3:hover {
   background: rgba(158, 158, 158, 0.3);
   width: 620px;
   height: 140px;
@@ -226,7 +222,7 @@ body {
   background: rgba(158, 158, 158, 0.3);
   width: 620px;
   height: 140px;
-}
+} */
 
 .rodape {
   padding: 18px;
